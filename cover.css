@@ -110,10 +110,9 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-.cover-photo {
+.img-thumbnail {
   border-radius: 50%;
 }
-
 
 /*
  * Footer
