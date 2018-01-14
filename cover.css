@@ -36,12 +36,12 @@ a:hover {
   color:  #333;
 }
 .logos {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 .contact {
   margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
 }
 
 
@@ -87,7 +87,7 @@ body {
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .masthead-brand {
