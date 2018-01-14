@@ -38,6 +38,9 @@ a:hover {
 .logos {
   max-width: 150px;
 }
+.col-sm-4 {
+  margin-bottom: 1rem;
+}
 
 .contact {
   margin-top: 7rem;
