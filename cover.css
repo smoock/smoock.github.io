@@ -10,6 +10,10 @@ a:hover {
 }
 
 /* Custom default button */
+.btn-submit {
+  width: 100%;
+}
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -21,11 +25,13 @@ a:hover {
 
 /* for the about section*/
 .about {
-  margin-bottom: 15rem;
+  margin-bottom: 7rem;
 }
 
 /*for the work section*/
 .work { 
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   background-color: #fff;
   color:  #333;
 }
@@ -34,10 +40,8 @@ a:hover {
 }
 
 .contact {
-  margin-bottom: 15rem;
-}
-form {
-  max-width: 500px;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
 
@@ -133,13 +137,12 @@ body {
   font-weight: 700;
 }
 .img-thumbnail {
-  margin-top: 10rem;
   border-radius: 50%;
   max-width:200px;
   max-height:200px;
 }
 .cover-heading {
- 
+  margin-bottom: 2rem;
 }
 
 /*
@@ -160,8 +163,11 @@ body {
     position: fixed;
     top: 0;
   }
+  .img-thumbnail {
+    margin-top: 1;
+  }
   .mastfoot {
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
   }
 
@@ -178,10 +184,19 @@ body {
   }
 }
 
+/*@media (min-width: 50em) {
+  .img-thumbnail {
+    margin-top: 5rem;
+  }
+}*/
+
 @media (min-width: 62em) {
   .masthead,
   .mastfoot,
   .cover-container {
     width: 100%;
+  }
+  .img-thumbnail {
+    margin-top: 10rem;
   }
 }
