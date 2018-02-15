@@ -47,6 +47,10 @@ a:hover {
   margin-bottom: 4rem;
 }
 
+.row .lead{
+  text-shadow: none;
+}
+
 
 /*
  * Base structure
