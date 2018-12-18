@@ -1,4 +1,10 @@
 @media (min-width: 0em) {
+	.resp-container {
+	    position: relative;
+	    overflow: hidden;
+	    padding-top: 100%;
+	}
+
 	html {
 		background-image: url("https://i.imgur.com/WNFxmxO.jpg");
 		background-position: center center;
@@ -10,6 +16,19 @@
 	    height: 100%;
 	    overflow: hidden;
 	}
+	iframe {
+		background: transparent;
+		top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    	border: 0;
+		background-color: rgba(0,0,0,0);
+		position: absolute;
+		overflow: hidden;
+		transform: scale(1);
+	}
+
 }
 
 @media (min-width: 62em) {
@@ -20,12 +39,13 @@
 		background-position: center top;
 		background-attachment: fixed;
 	}
-}
 
-iframe {
-	background: transparent;
-	background-color: rgba(255,255,255,0);
-	height: 560px;
-	width: 400px;
-	overflow: hidden;
+	iframe {
+		background: transparent;
+		background-color: rgba(0,0,0,0);
+		height: 560px;
+		width: 400px;
+		overflow: hidden;
+		transform: scale(1);
+	}
 }
